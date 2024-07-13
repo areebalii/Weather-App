@@ -93,3 +93,29 @@ body{
 .humedity, .wind{
     font-size: 28px;
 }
+@media (max-width: 600px) {
+    .container {
+      padding: 15px;
+    }
+  
+    .search input {
+      width: 60%;
+    }
+  
+    .weather h1 {
+      font-size: 3em;
+    }
+  
+    .weather h2 {
+      font-size: 2.5em;
+    }
+  
+    .details {
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .details .col {
+      margin-bottom: 10px;
+    }
+  }
